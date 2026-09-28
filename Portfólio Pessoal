@@ -1,0 +1,60 @@
+# 🚀 Portfólio Pessoal | Daniel Pires
+
+<p align="center">
+  <img src="assets/Daniel.jpg" alt="Daniel Pires" width="150" style="border-radius: 50%;">
+</p>
+
+<p align="center">
+  <b>Estudante de Desenvolvimento de Sistemas no SENAI</b><br>
+  <i>Desenvolvedor Web em Formação</i>
+</p>
+
+<p align="center">
+  <a href="#-sobre-mim">Sobre Mim</a> •
+  <a href="#-habilidades">Habilidades</a> •
+  <a href="#-meus-projetos">Projetos</a> •
+  <a href="#-como-executar">Como Executar</a> •
+  <a href="#-contato">Contato</a>
+</p>
+
+---
+
+## 👨‍💻 Sobre Mim
+
+Olá! Sou o **Daniel Pires**, estudante de **Desenvolvimento de Sistemas no SENAI**. 
+
+Estou construindo minha base no desenvolvimento web, com sólido domínio da estrutura e estilização de páginas (**HTML5 & CSS3**) e expandindo meus conhecimentos em **JavaScript** e tecnologias de backend para criar soluções completas.
+
+---
+
+## 🛠️ Habilidades & Tecnologias
+
+- **HTML5 Semântico:** Estruturação limpa e acessível.
+- **CSS3:** Estilização, layout e responsividade básica.
+- **Formulários & Validação:** Captura e tratamento de dados do usuário.
+- **Estruturação de Dados:** Organização de dados usando tabelas e listas.
+- **JavaScript & PHP:** Em fase de aprendizado e aplicação prática.
+
+---
+
+## 📂 Meus Projetos
+
+Abaixo estão alguns dos projetos desenvolvidos ao longo da minha jornada:
+
+| Projeto | Tecnologias | Status | Link |
+| :--- | :---: | :---: | :---: |
+| **Cadastro e Arrays** | HTML, CSS, PHP | 🟢 Concluído | [Acessar Repositório](https://github.com/PRS2k/Cadastro-e-Arrays-em-PHP.) |
+| **Perfil do GitHub** | HTML, CSS, JavaScript | 🟢 Concluído | [Acessar Repositório](https://github.com/PRS2k/PRS2K) |
+| **Loja de Games Retrô** | HTML | 🟢 Concluído | [Acessar Repositório](https://github.com/PRS2k/Loja-de-Games-Retro) |
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+.
+├── assets/
+│   └── Daniel.jpg      # Foto de perfil
+├── index.html          # Estrutura principal da página
+├── processa.php        # Script responsável por receber os dados do formulário
+└── README.md           # Documentação do projeto
