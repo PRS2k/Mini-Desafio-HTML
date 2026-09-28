@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Básica HTML</title>
+</head>
+<body>
+    <h1>Daniel Pires - Desenvolvedor Web</h1>
+
+    <!-- Navegação principal -->
+             <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+             </ul>
+        </nav>
+    </header>
+
+    
+
+    <hr>
+    <section id="sobre">
+    <h1>Sobre Mim</h1>
+    <img src="assets/Daniel.jpg" width="200" height="200" alt="Foto de Daniel Pires"> 
+     <p>Sou um Estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.
+    <p>Tenho conhecimento em HTML e CSS e estou aprendendo JavaScript.</p>
+    <h1>Minhas Habilidades:</h1>
+    <ul style="list-style-type: disc;">
+        <li>HTML5 Semântico</li>
+        <li>CSS3 e Responsividade</li>
+        <li>Formulários e Validação</li>
+        <li>Estruturação de Dados</li>
+    </ul>
+    <hr>
+<section id="projetos">
+    <h2>Meus Projetos</h2>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Projeto</th>
+      <th>Tecnologias</th>
+      <th>Status</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cadastro-e-Arrays</td>
+      <td>HTML, CSS</td>
+      <td>Concluído</td>
+      <td><a href="https://github.com/PRS2k/Cadastro-e-Arrays-em-PHP.">Ver Projeto</a></td>
+    </tr>
+    <tr>
+      <td>Meu Github</td>
+      <td>HTML, CSS, JavaScript</td>
+      <td>Concluído</td>
+      <td><a href="https://github.com/PRS2k/PRS2K">Ver Projeto</a></td>
+    </tr>
+    <tr>
+      <td>Loja-de-Games-Retro</td>
+      <td>HTML</td>
+      <td>Concluído</td>
+      <td><a href="https://github.com/PRS2k/Loja-de-Games-Retro">Ver Projeto</a></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+
+    <h2>Entre em Contato</h2>
+
+    <fieldset>
+<!-- Formulário com método post e ação -->
+<form action="processa.php" method="post">
+    
+    <!-- campo de texto simples -->
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required>
+    <br><br>
+
+    <!-- campo de email com validação -->
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+
+    <!-- Lista de seleção (select) -->
+    <label for="cidade">Assunto:</label>
+    <select name="cidade" id="cidade">
+        <option value="">Oportunidade de Trabalho</option>
+        <option value="">Contato geral</option>
+        <option value="">Proposta de Emprego</option>
+    </select><br><br>
+
+    <!-- Área de texto  -->
+    <label for="comentario">Mensagem:</label><br>
+    <textarea id="comentario" name="comentario" rows="8" cols="30"></textarea><br><br>
+    <input type="submit" value="Enviar Mensagem">
+</form>
+</fieldset>
+
+<section id="contato">
+<footer>
+    <p>&copy; 2026 Meu Currículo. Todos os direitos reservados.</p>
+<address>
+    Contato: <a href="daniel.p.oliveira@edu.senai.br">contato@meusite.com</a>
+    |
+    Telefone: (11) 96126-5370
+</address>
+</footer>
+
+</body>
+<body style="background-color: #9ba2b9;"></html>
